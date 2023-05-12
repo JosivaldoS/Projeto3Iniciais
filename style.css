@@ -1,0 +1,37 @@
+div#titulo{
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    font-size: 30px;
+}
+
+div#pokemons {
+    font-size: 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 100px;
+}
+
+div#Bulbasaur{
+    padding-right: 80px;
+}
+
+div#Charmander{
+    padding-left: 80px;
+}
+
+body{
+    background-color: rgb(238, 226, 157);
+}
+
+img{
+    width: 150px;
+    height: 150px;
+}
+
+p{
+    text-align: center;
+}
