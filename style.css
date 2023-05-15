@@ -1,14 +1,45 @@
+
+
 div#titulo{
     justify-content: center;
     display: flex;
     align-items: center;
     padding: 10px;
     font-size: 26px;
-    flex-direction: column;
+    flex-direction: row;
 }
 
-p#professorOak{
+div#professorOak{
+    padding: 20px;
+}
+
+div#professorOakFala{
+    position: relative;
+    background-color: #f2f2f2;
+    border-radius: 10px;
+    padding: 10px;
+    width: 700px;
+}
+
+div#professorOakFala::after{
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: -20px;
+    border-style: solid;
+    border-width: 10px;
+    border-color: transparent #f2f2f2 transparent transparent;
+    transform: translateY(-50%);
+}
+
+img#professorOakImg{
+    width: 11vw;
+    height: 50vh;
+}
+
+p#professorOakFala{
     font-size: 25px;
+    width: 700px;
 }
 
 div#pokemons {
@@ -39,7 +70,7 @@ div#Squirtle{
 }
 
 body{
-    background-color: rgb(202, 193, 138);
+    background-color: #3E9451;
 }
 
 img{
@@ -55,4 +86,11 @@ p#descricao{
     font-size: 20px;
     padding-right: 10px;
     padding-left: 10px;
+}
+
+h1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #1b130a;
 }
