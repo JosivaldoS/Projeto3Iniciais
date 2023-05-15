@@ -21,22 +21,28 @@ div#pokemons {
 }
 
 div#Bulbasaur{
-    padding-right: 80px;
+    text-align: center;
+    width: 30vw;
+    height: 80vh;
 }
 
 div#Charmander{
-    padding-left: 80px;
+    text-align: center;
+    width: 30vw;
+    height: 80vh;
+}
+
+div#Squirtle{
+    text-align: center;
+    width: 30vw;
+    height: 80vh;
 }
 
 body{
-    background-color: rgb(238, 226, 157);
+    background-color: rgb(202, 193, 138);
 }
 
 img{
-    justify-content: center;
-    display: flex;
-    align-items: center;
-    text-align: center;
     width: 150px;
     height: 150px;
 }
@@ -47,5 +53,6 @@ p{
 
 p#descricao{
     font-size: 20px;
-    width: 300px;
+    padding-right: 10px;
+    padding-left: 10px;
 }
