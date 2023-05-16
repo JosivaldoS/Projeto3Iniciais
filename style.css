@@ -1,4 +1,11 @@
-
+@keyframes moveUpDown{
+    0%, 100% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(-10px);
+    }
+}
 
 div#titulo{
     justify-content: center;
@@ -10,7 +17,7 @@ div#titulo{
 }
 
 div#professorOak{
-    padding: 20px;
+    padding: 10px;
 }
 
 div#professorOakFala{
@@ -19,6 +26,8 @@ div#professorOakFala{
     border-radius: 10px;
     padding: 10px;
     width: 700px;
+    box-shadow: 4px 4px #123636;
+    
 }
 
 div#professorOakFala::after{
@@ -70,7 +79,7 @@ div#Squirtle{
 }
 
 body{
-    background-color: #3E9451;
+    background-color: #184a4a;
 }
 
 img{
@@ -94,3 +103,45 @@ h1{
     align-items: center;
     color: #1b130a;
 }
+
+div#pokebolas{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    padding: 20px;
+}
+
+div#pokebolaBulbasaur{
+    position: relative;
+    text-align: center;
+    width: 30vw;
+    height: 40vh;
+    cursor: pointer;
+}
+
+div#pokebolaBulbasaur:hover{
+    animation: moveUpDown 0.5s infinite;
+}
+
+div#pokebolaSquirtle{
+    text-align: center;
+    width: 30vw;
+    height: 40vh;
+    cursor: pointer;
+}
+
+div#pokebolaSquirtle:hover{
+    animation: moveUpDown 0.5s infinite;
+}
+
+div#pokebolaCharmander{
+    text-align: center;
+    width: 30vw;
+    height: 40vh;
+    cursor: pointer;
+}
+
+div#pokebolaCharmander:hover{
+    animation: moveUpDown 0.5s infinite;
+}
+
