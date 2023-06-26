@@ -13,14 +13,14 @@
 .color4 { #8ccc81 }; verde 
 .color5 { #bade57 }; verde limão
 
+https://coolors.co/2b4162-0b6e4f-f23838-7ae7c7-8d91c7
+
 */
 
 div#titulo{
     justify-content: center;
     display: flex;
     align-items: center;
-    padding: 10px;
-    font-size: 26px;
     flex-direction: row;
 }
 
@@ -29,12 +29,14 @@ div#professorOak{
 }
 
 div#professorOakFala{
+    font-size: 26px;
+    justify-content: center;
     position: relative;
     background-color: #f2f2f2;
     border-radius: 10px;
     padding: 10px;
     width: 700px;
-    box-shadow: 4px 4px #123636;
+    box-shadow: 4px 4px #333447;
     
 }
 
@@ -63,7 +65,7 @@ div#pokemons {
     font-size: 30px;
     display: flex;
     flex-direction: row;
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
     padding: 20px;
 }
@@ -74,7 +76,7 @@ div#Bulbasaur{
     height: 80vh;
     background-color: #8ccc81;
     border-radius: 8px;
-    padding: 10px;
+
 }
 
 div#Charmander{
@@ -83,7 +85,6 @@ div#Charmander{
     height: 80vh;
     background-color: #8ccc81;
     border-radius: 8px;
-    padding: 10px;
 }
 
 div#Squirtle{
@@ -92,11 +93,11 @@ div#Squirtle{
     height: 80vh;
     background-color: #8ccc81;
     border-radius: 8px;
-    padding: 10px;
+    
 }
 
 body{
-    background-color: #56877d;
+    background-color: #545677;
 }
 
 img{
@@ -113,11 +114,11 @@ p#descricao{
     font-size: 20px;
     padding-right: 10px;
     padding-left: 10px;
-    background-color: #bade57;
+    background-color: #5eb1554d;
 }
 
 p#nomeDosPokemons{
-    background-color: #bade57;
+    background-color: #7c943a7e;
     border-radius: 5px;
 }
 
@@ -137,10 +138,10 @@ div#pokebolas{
 
 div#pokebolaBulbasaur{
     position: relative;
-    text-align: center;
     width: 30vw;
     height: 40vh;
     cursor: pointer;
+    text-align: center;
 }
 
 div#pokebolaBulbasaur:hover{
@@ -148,10 +149,10 @@ div#pokebolaBulbasaur:hover{
 }
 
 div#pokebolaSquirtle{
-    text-align: center;
     width: 30vw;
     height: 40vh;
     cursor: pointer;
+    text-align: center;
 }
 
 div#pokebolaSquirtle:hover{
