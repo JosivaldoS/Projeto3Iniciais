@@ -170,3 +170,10 @@ div#pokebolaCharmander:hover{
     animation: moveUpDown 0.5s infinite;
 }
 
+div#Squirtle{
+    position: relative;
+    background-image: url(Imagens/mao.png);
+    left: 0;
+    top: 15px;
+}
+
